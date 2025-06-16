@@ -30,14 +30,14 @@ public class Main {
         System.out.println("\n=== Builder: Requisições HTTP ===");
 
         HttpRequest req1 = new HttpRequest.Builder()
-            .url("https://api.restaurante.com/pedidos")
+            .url("https://exemplo.restaurante.com/pedidos")
             .timeout(3000)
             .auth("Bearer abc123")
             .addHeader("Accept", "application/json")
             .build();
 
         HttpRequest req2 = new HttpRequest.Builder()
-            .url("https://api.restaurante.com/cardapio")
+            .url("https://exemplo.restaurante.com/cardapio")
             .addHeader("Cache-Control", "no-cache")
             .build();
 
