@@ -1,4 +1,5 @@
-package com.pdp.gerenciador;
+package com.pdp.gerenciador.mvc;
+/*package com.pdp.gerenciador;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -10,4 +11,4 @@ public class GerenciadorApplication {
 		SpringApplication.run(GerenciadorApplication.class, args);
 	}
 
-}
+}*/
